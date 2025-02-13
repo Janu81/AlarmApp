@@ -25,8 +25,6 @@ public class AlarmApp {
     }
 
     public static void openMusic() {
-        try {
-            String url = "https://open.spotify.com/playlist/YOUR_PLAYLIST_ID";
-            Runtime.getRuntime().exec(new String[]{"xdg-open", url});
-        } catch (Exception e) {
+    System.out.println("🔔 Alarm ringing! (Music would play here in a real app)");
+} catch (Exception e) {
             e.pri
